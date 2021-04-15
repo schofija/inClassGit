@@ -5,6 +5,7 @@ def calc(a, b):
     div = a / b
     #print(sum)
     
-    sol = [sum, diff, mul, div]
+    list = [sum, diff, mul, div]
+    listSum = sum(list)
     
-calc(3,4)
+#calc(3, 4)
