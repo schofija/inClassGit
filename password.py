@@ -1,8 +1,11 @@
 import random, string
 
-pw = ' '
-
 def password(i):
-    for j in range(i):
-        pw += char(random.randint(0, 255))
+    pw = ""
+    for _ in range(i):
+        pw += chr(random.randint(32, 126))
     print(pw)
+    
+userIn = input("Length of password: ")
+userIn = int(userIn)
+password(userIn)
