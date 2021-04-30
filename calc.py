@@ -1,11 +1,11 @@
-def calc(a, b):
-    sum = a + b 
-    diff = a - b
-    mul = a * b
-    div = a / b
-    #print(sum)
-    
-    list = [sum, diff, mul, div]
-    listSum = sum(list)
-    
-#calc(3, 4)
+def add(a, b):
+    return a+b
+
+def sub(a, b):
+    return a-b
+
+def mul(a, b):
+    return a*b 
+
+def div(a, b):
+    return a/b
